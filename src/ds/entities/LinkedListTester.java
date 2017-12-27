@@ -7,6 +7,8 @@ public class LinkedListTester {
     doublyLinkedList.insertAtEnd("Saket");
     doublyLinkedList.insertAtEnd("End");
     doublyLinkedList.insertAtStart("Start");
+    doublyLinkedList.removeItem("Saket");
     doublyLinkedList.displayListContents();
+    doublyLinkedList.displayListContentsFromEnd();
   }
 }
